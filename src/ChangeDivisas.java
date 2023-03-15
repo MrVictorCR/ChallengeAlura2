@@ -14,7 +14,7 @@ public class ChangeDivisas extends App{
             boolean seguirPrograma = true;
             while (seguirPrograma){
 
-                String [] opciones = {"Colones a Euros", "Colones a Dolares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a Won"};
+                String [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a Won"};
 
                 String cambio = (String) JOptionPane.showInputDialog(null, "Elija una Opción:", "Conversor de Moneda",
                     JOptionPane.QUESTION_MESSAGE, null,opciones,opciones[0]);
@@ -39,6 +39,7 @@ public class ChangeDivisas extends App{
 
                         double dolares = colones / 548.48;
                         JOptionPane.showMessageDialog(null, colones + " Colones costarricenses son: " + formatDivisas.format(dolares) + " Dólares.");
+
                         
                     } else if (cambio.equals("Colones a Libras Esterlinas")){
 
@@ -61,9 +62,9 @@ public class ChangeDivisas extends App{
                     "¿Desea continuar usando el programa?", "Confirmar", JOptionPane.YES_NO_OPTION);
                         
                     if(confirm == JOptionPane.NO_OPTION || confirm == JOptionPane.CANCEL_OPTION){
-
-                        seguirPrograma = false;
                         JOptionPane.showMessageDialog(null, "Programa Finalizado");
+                        seguirPrograma = false;
+                        
                     }
                 }
         
