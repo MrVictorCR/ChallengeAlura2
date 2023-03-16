@@ -10,18 +10,19 @@ public class App{
         this.choose = choose;
     }
 
+    
+    private Object [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a won"};
 
-    private String [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a Won",
-    "Euros a Colones", "Dólares a Colones", "Lirbas Esterlinas a Colones", "Yen a Colones", "Won a Colones"};
-
-    public String[] getOpciones() {
+    public Object[] getOpciones() {
         return opciones;
     }
 
-    public void setOpciones(String[] opciones) {
+    public void setOpciones(Object[] opciones) {
         this.opciones = opciones;
     }
+
+
     
-    
+
 
 }

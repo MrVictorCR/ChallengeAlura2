@@ -3,20 +3,22 @@ import javax.swing.JOptionPane;
 
 public class ChangeDivisas extends App{
     
-    static App changeDivisas = new App();
+    static App métodosApp = new App();
+    
 
     
-    public void changeDivisas(){
+    public void changeDivisas(Object [] opciones){
 
-        changeDivisas.setChoose(0);
-        // changeDivisas.setOpciones(getOpciones());
+        métodosApp.setChoose(0);
+        
 
         DecimalFormat formatDivisas = new DecimalFormat("##.#");
             boolean seguirPrograma = true;
             while (seguirPrograma){
 
-                String [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a Won",
-                                        "Euros a Colones", "Dólares a Colones", "Lirbas Esterlinas a Colones", "Yen a Colones", "Won a Colones"};
+                
+                métodosApp.setOpciones(getOpciones());
+                                        //"Euros a Colones", "Dólares a Colones", "Lirbas Esterlinas a Colones", "Yen a Colones", "Won a Colones"};
 
                 String cambio = (String) JOptionPane.showInputDialog(null, "Elija una Opción:", "Conversor de Moneda",
                     JOptionPane.QUESTION_MESSAGE, null,opciones,opciones[0]);

@@ -5,6 +5,8 @@ public class MainMenu extends App{
     public static void main(String[] args) throws Exception {
 
         // Métodos
+        
+        App métodoApp = new App();
         ChangeTemp métodoTemp = new ChangeTemp();
         ChangeDivisas métodoDivisas = new ChangeDivisas();
         Salir métodoSalir = new Salir();
@@ -28,7 +30,7 @@ public class MainMenu extends App{
      
         if (choose == 0){ // Conversor de Divisas
             
-            métodoDivisas.changeDivisas();
+            métodoDivisas.changeDivisas(métodoApp.getOpciones());
 
         }
             
