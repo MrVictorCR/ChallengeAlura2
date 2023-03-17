@@ -1,15 +1,13 @@
 import javax.swing.JOptionPane;
-public class MainMenu{
+public class MainMenu extends App{
     
     // Método main
     public static void main(String[] args) throws Exception {
 
+
         // Métodos
-        
-        App métodosApp = new App();
         ChangeTemp métodoTemp = new ChangeTemp();
         ChangeDivisas métodoDivisas = new ChangeDivisas();
-        ChangeOtraDivisaAColones métodoOtraDivisa = new ChangeOtraDivisaAColones();
         Salir métodoSalir = new Salir();
 
 
@@ -23,29 +21,18 @@ public class MainMenu{
         // Funcionalidades del menú
 
         if (choose == 2){ // Salir
-
             métodoSalir.endFunction();
-
         }
 
         if (choose == 0){ // Conversor de Divisas
-            
-            if (métodosApp.startsWith("Colones")){
-                métodoDivisas.changeDivisas(métodosApp.getOpciones());
-                
-
-            } else {
-                métodoOtraDivisa.changeOtrasDivisasAColones(métodosApp.getOpciones());
-        
-            }
+            métodoDivisas.changeDivisas(getOpciones());
         }
 
         if (choose == 1){ // Conversor de Temp
-
             métodoTemp.changeTemp();
-
         }
-    }   
-}
+    }
+}   
+
        
 
