@@ -1,13 +1,8 @@
 import javax.swing.JOptionPane;
 
-public class ChangeTemp extends App{
-    
-        static App changeTemp = new App();
-    
-        
+public class ChangeTemp{
+       
         public void changeTemp(){
-    
-            changeTemp.setChoose(1);
 
             boolean seguirPrograma = true;
             while(seguirPrograma){

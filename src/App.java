@@ -1,18 +1,24 @@
+import javax.swing.JOptionPane;
+
 public class App{
+ 
+    // Variables
 
-    private int choose;
-
-    public int getChoose() {
-        return choose;
-    }
-
-    public void setChoose(int choose) {
-        this.choose = choose;
-    }
-
+        // Menú Principal
     
-    private Object [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a won"};
 
+
+        // Menú opciones de Divisas
+    private Object [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a won"};
+    
+        // Menú conversion
+    private String cambio = (String) JOptionPane.showInputDialog(null, "Elija una Opción:", "Conversor de Moneda",
+        JOptionPane.QUESTION_MESSAGE, null,opciones,opciones[0]);
+
+
+    // Getters and Setters
+
+        // Variable opciones
     public Object[] getOpciones() {
         return opciones;
     }
@@ -21,8 +27,19 @@ public class App{
         this.opciones = opciones;
     }
 
-
+        // Variable cambio
+    public String getCambio() {
+            return cambio;
+    }
     
+    public void setCambio(String cambio) {
+            this.cambio = cambio;
+    }
+
+
+    public boolean startsWith(String string) {
+        return false;
+    }
 
 
 }
