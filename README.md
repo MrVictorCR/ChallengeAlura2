@@ -9,7 +9,7 @@
 
 <!-- SHIELDS -->
 [![GitHub top language][toplanguage-shield]][toplanguage-url]
-[![MIT License][license-shield]][license-url]
+<!--[![MIT License][license-shield]][license-url] -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -21,10 +21,10 @@
      <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ONE Alura Latam Challenge #2</h3>
 
   <p align="center">
-    project_description
+    Challenge #2 Completed
     <br />
     <a href="https://github.com/MrVictorCR/ChallengeAlura2"><strong>Explore the docs »</strong></a>
     <br />
@@ -119,12 +119,12 @@ _As an example of "How I can use this program?". See 'Usage.pdf'_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Main Methods
-- [] Functionality = Class
-    - [] MainMenu
-    - [] ChangeDivisas
-    - [] ChangeTemp
-- [] JOptionPane tools
+- Main Methods
+- Functionality = Class
+    - MainMenu
+    - ChangeDivisas 
+    - ChangeTemp
+- JOptionPane tools
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -187,9 +187,7 @@ Resources that I found helpful to complete my project :wink:
 
 
 [toplanguage-shield]:(https://img.shields.io/github/languages/top/MrVictorCR/ChallengeAlura2?logo=visual%20studio%20code&logoColor=lightblue)
-[toplanguage-url]: https://github.com/MrVictorCR/ChallengeAlura2/search?l=Java
-[license-shield]: https://img.shields.io/github/license/github_MrVictorCR/ChallengeAlura2.svg?style=for-the-badge
-[license-url]: https://github.com/github_MrVictorCR/ChallengeAlura2/blob/master/LICENSE.txt
+[toplanguage-url]: https://github.com/MrVictorCR/ChallengeAlura2/search?l=Javat
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/victor-mora-herrera
 
