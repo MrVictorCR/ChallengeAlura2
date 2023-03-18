@@ -8,9 +8,13 @@
 -->
 
 <!-- SHIELDS -->
+<div align="center">
+
 ![GitHub Top Lenguage](https://img.shields.io/github/languages/top/MrVictorCR/ChallengeAlura2?logo=visual%20studio%20code&logoColor=lightblue)
 ![GitHub](https://img.shields.io/github/license/MrVictorCR/ChallengeAlura2?style=plastic)
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
+</div>
 
 
 
@@ -185,6 +189,6 @@ Resources that I found helpful to complete my project
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/victor-mora-herrera
 
