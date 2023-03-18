@@ -3,7 +3,7 @@ public class App{
     // Variables
 
         // Menú opciones de Divisas
-    private static Object [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a won",
+    private static Object [] opciones = {"Colones a Euros", "Colones a Dólares", "Colones a Libras Esterlinas", "Colones a Yen", "Colones a Won",
                                             "Euros a Colones", "Dólares a Colones", "Libras Esterlinas a Colones", "Yen a Colones", "Won a Colones"};
     
 
