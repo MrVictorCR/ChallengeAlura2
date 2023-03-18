@@ -8,8 +8,8 @@
 -->
 
 <!-- SHIELDS -->
-[![GitHub top language][toplanguage-shield]][toplanguage-url]
-<!--[![MIT License][license-shield]][license-url] -->
+![GitHub Top Lenguage](https://img.shields.io/github/languages/top/MrVictorCR/ChallengeAlura2?logo=visual%20studio%20code&logoColor=lightblue)
+![GitHub](https://img.shields.io/github/license/MrVictorCR/ChallengeAlura2?style=plastic)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -76,7 +76,7 @@ I decided to create this project with Visual Studio Code and Java, as a result, 
 
 
 
-### Built With
+### Built With :wrench:
 
 * [Java](https://www.java.com/es/)
 
@@ -85,7 +85,7 @@ I decided to create this project with Visual Studio Code and Java, as a result, 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started :bulb:
 
 ### Installation
 
@@ -171,9 +171,9 @@ Project Link: [https://github.com/github_MrVictorCR/ChallengeAlura2](https://git
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments :wink:
 
-Resources that I found helpful to complete my project :wink:
+Resources that I found helpful to complete my project
 
 * [Choose an Open Source License](https://choosealicense.com/)
 * [Img Shields](https://shields.io/)
@@ -185,9 +185,6 @@ Resources that I found helpful to complete my project :wink:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-
-[toplanguage-shield]:(https://img.shields.io/github/languages/top/MrVictorCR/ChallengeAlura2?logo=visual%20studio%20code&logoColor=lightblue)
-[toplanguage-url]: https://github.com/MrVictorCR/ChallengeAlura2/search?l=Javat
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/victor-mora-herrera
 
